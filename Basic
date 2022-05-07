@@ -1,0 +1,21 @@
+digraph {
+	Collaboration
+	Technology
+	"Team size"
+	ZPersonality
+	Resources
+	Development
+	Cost
+	Quality
+	Development -> Cost
+	Development -> Quality
+	Cost -> Quality
+	Resources -> Cost
+	Resources -> Development
+	Resources -> Quality
+	Technology -> Development
+	Technology -> Resources
+	ZPersonality -> Resources
+	Collaboration -> Resources
+	"Team size" -> Resources
+}
